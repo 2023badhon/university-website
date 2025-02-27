@@ -119,6 +119,12 @@
                     padding: 30px;
                 }
             }
+            .footer a { color: #0073e6; text-decoration: none; margin: 0 5px; }
+        .watermark {
+            font-size: 12px;
+            color: #999;
+            margin-top: 10px;
+        }
         </style>
     </head>
     <body>
@@ -128,7 +134,7 @@
                 <div class="nav-links">
                     <i class="fa fa-times"></i>
                     <ul>
-                        <li><a href="">HOME</a></li>
+                        <li><a href="{% url 'home' %}">HOME</a></li>
                         <li><a href="">ABOUT</a></li>
                         <li><a href="">COURSE</a></li>
                         <li><a href="">BLOG</a></li>
@@ -141,6 +147,9 @@
                 <h1>University of Chittagong</h1>
                 <p>Welcome to the Department of Computer Science and Engineering (CSE) at the University of Chittagong.</p>
                 <a href="" class="hero-btn">Visit Us to Know More</a>
+            <div class="footer">
+                <p class="watermark">&copy; Universiy of Chittagong. All rights reserved.</p>
+            </div>
             </div>
         </section>
     </body>
